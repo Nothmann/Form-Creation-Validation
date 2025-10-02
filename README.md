@@ -17,3 +17,13 @@ Asynchronous JavaScript (fetch API)
 Input validation and feedback
 
 Local storage (optional enhancement)
+
+API Data Fetcher
+A simple JavaScript app that fetches user data from a public API and displays it dynamically on the page.
+
+Features
+Asynchronous data fetching using fetch()
+
+Real-time loading and error handling
+
+Clean list display of user names
