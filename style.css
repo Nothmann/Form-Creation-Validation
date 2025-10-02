@@ -1,5 +1,6 @@
+/* style.css */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +10,7 @@ body {
 }
 
 form {
-  background: #ffffff;
+  background: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -18,32 +19,26 @@ form {
 }
 
 label {
+  display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #333;
-  display: block;
 }
 
 input {
   padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: calc(100% - 22px);
+  margin-bottom: 15px;
+  width: 100%;
   box-sizing: border-box;
 }
 
 button {
   background-color: #007bff;
   color: white;
-  padding: 10px 15px;
+  padding: 10px;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
   width: 100%;
-  box-sizing: border-box;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 button:hover {
@@ -53,13 +48,6 @@ button:hover {
 #form-feedback {
   margin-top: 10px;
   padding: 10px;
-  color: #d8000c;
-  background-color: #ffbaba;
-  border-radius: 4px;
   display: none;
-}
-#form-feedback.success {
-  color: #4f8a10;
-  background-color: #dff2bf;
-  display: block;
+  border-radius: 4px;
 }
